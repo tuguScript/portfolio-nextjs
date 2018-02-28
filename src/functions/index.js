@@ -15,11 +15,13 @@ const app = {
 }
 
 // Mircoservices that make up the Greetings service
-// yarn deploy-functions
-const greetings = {
-  mars,
-  jupiter,
-  // other funcs
-}
+// // yarn deploy-functions
+// const greetings = {
+//   mars,
+//   jupiter,
+//   // other funcs
+// }
 
-export { app, greetings }
+export { app
+  // , greetings 
+}

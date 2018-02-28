@@ -11,8 +11,10 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>Next.js on Firebase Hosting</title>
+          <meta charset='utf-8' />
+          <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
         </Head>
-        <body>
+        <body style={{backgroundColor: '#F9FBFD', fontFamily: 'Roboto'}}>
           <Main />
           <NextScript />
         </body>
