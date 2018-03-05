@@ -6,12 +6,12 @@ import { featuredArticles } from '../data.js'
 export default () => (
   <App>
     <div className='wrapper'>
-      <div className='header' style={{position: 'relative'}}>
-        <div className='icons' style={{ right: '20px', position: 'absolute', top: '20px'}}>
-          <i className='icon1 fab fa-github'></i>
-          <i className='icon2 fab fa-twitter'></i>
-          <i className='icon3 fab fa-linkedin'></i>
-          <i className='icon4 fa fa-envelope'></i>
+      <div className='header' style={{ position: 'relative' }}>
+        <div className='icons' style={{ right: '20px', position: 'absolute', top: '20px' }}>
+          <a href="https://github.com/tuguScript" target="_blank"><i style={{textDecoration: 'inherit', color: 'inherit'}} className='icon1 fab fa-github'></i></a>
+          <a href="https://twitter.com/tuguldur_01" target="_blank"><i className='icon2 fab fa-twitter'></i></a>
+          <a href="https://www.linkedin.com/in/tuguldurtech/" target="_blank"><i className='icon3 fab fa-linkedin'></i></a>
+          <a href="mailto:tuguscript@gmail.com?Subject=Hello" target="_blank"><i className='icon4 fa fa-envelope'></i></a>
         </div>
         <div className='emoji'>
           ✌️
@@ -22,14 +22,14 @@ export default () => (
       <div className='body' style={{ padding: '0px 80px' }}>
         <h1>Projects</h1>
         {featuredArticles.map((featuredArticle, i) => {
-           return <Item
-                    title={featuredArticle.title}
-                    description={featuredArticle.description}
-                    id={featuredArticle.id}
-                    key={featuredArticle.id}
-                    link={featuredArticle.link}
-                    newTab={featuredArticle.link ? true : false} />
-         })}
+          return <Item
+            title={featuredArticle.title}
+            description={featuredArticle.description}
+            id={featuredArticle.id}
+            key={featuredArticle.id}
+            link={featuredArticle.link}
+            newTab={featuredArticle.link ? true : false} />
+        })}
       </div>
     </div>
     <style jsx global>
