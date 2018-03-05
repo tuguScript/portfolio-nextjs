@@ -4,7 +4,7 @@ import Link from 'next/link'
 class Item extends React.Component {
   state = {}
   componentDidMount() {
-    console.log(this.props.link);
+    console.log(this.props.description);
 
   }
   render() {
@@ -18,17 +18,37 @@ class Item extends React.Component {
         >
           <div className='item'>
             <h1 className='h1'>{props.title}</h1>
-            <h3 className='h3'>{props.description}</h3>
+            {props.description.map((item) => {
+              return <span className='badge'>{item}</span>
+            })}
+
             <style jsx>
               {`
               .item {
                   border: 1px solid white
-                  padding: 0px 20px
+                  border-radius: 25px;
+                  padding: 10px 20px
                   transition: border 0.5s;
                   cursor: pointer
               }
               .item:hover {
                   border: 1px solid black
+              }
+              .badge {
+                padding: 1px 9px 2px;
+                font-size: 12.025px;
+                font-weight: bold;
+                white-space: nowrap;
+                color: #ffffff;
+                background-color: #999999;
+                -webkit-border-radius: 9px;
+                -moz-border-radius: 9px;
+                border-radius: 9px;
+              }
+              .badge:hover {
+                color: #ffffff;
+                text-decoration: none;
+                cursor: pointer;
               }
               `}
             </style>
@@ -40,22 +60,41 @@ class Item extends React.Component {
         <Link
           // as={`/p/${props.id}`} 
           href={props.link}
-          
+
         >
-          <a target="_blank" style={{textDecoration: 'inherit'}}>
+          <a target="_blank" style={{ textDecoration: 'inherit' }}>
             <div className='item'>
               <h1 className='h1'>{props.title}</h1>
-              <h3 className='h3'>{props.description}</h3>
+              {props.description.map((item) => {
+                return <span className='badge'>{item}</span>
+              })}
               <style jsx>
                 {`
               .item {
                   border: 1px solid white
-                  padding: 0px 20px
+                  border-radius: 25px;
+                  padding: 10px 20px
                   transition: border 0.5s;
                   cursor: pointer
               }
               .item:hover {
                   border: 1px solid black
+              }
+              .badge {
+                padding: 1px 9px 2px;
+                font-size: 12.025px;
+                font-weight: bold;
+                white-space: nowrap;
+                color: #ffffff;
+                background-color: #999999;
+                -webkit-border-radius: 9px;
+                -moz-border-radius: 9px;
+                border-radius: 9px;
+              }
+              .badge:hover {
+                color: #ffffff;
+                text-decoration: none;
+                cursor: pointer;
               }
               `}
               </style>

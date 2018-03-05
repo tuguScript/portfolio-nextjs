@@ -5,7 +5,7 @@ export const featuredArticles = [
         'date': '12/06/2018',
         'title': 'Todoro.ga',
         'category': 'Progressive Web App',
-        'description': 'lala',
+        'description': ['PWA', 'React.js'],
         'img': 'https://images.unsplash.com/photo-1454778640289-e73d538b445d?auto=format&fit=crop&w=1950&q=80',
         'content': `Laborum voluptate consequat exercitation non ipsum sit occaecat pariatur exercitation ea aute enim sit consequat. Sunt velit ea dolor sunt nulla enim consectetur eiusmod eu occaecat. Labore ullamco reprehenderit occaecat mollit voluptate ut enim cillum id qui culpa. Labore fugiat pariatur pariatur proident ut ullamco Lorem ullamco elit. Nisi commodo dolore nisi ullamco labore.
 
@@ -23,7 +23,7 @@ Eiusmod laborum et consequat enim voluptate fugiat cillum enim irure amet irure.
         'date': '12/06/2018',
         'title': 'MeChef.ga',
         'category': 'Progressive Web App',
-        'description': 'lala',
+        'description': ['Ruby', 'React.js'],
         'img': 'https://images.unsplash.com/photo-1501197698593-0ccc1dfbd866?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=02e1226c90b8550ab121d92a8ef6ffbe&auto=format&fit=crop&w=2944&q=80',
         'content': `Laborum voluptate consequat exercitation non ipsum sit occaecat pariatur exercitation ea aute enim sit consequat. Sunt velit ea dolor sunt nulla enim consectetur eiusmod eu occaecat. Labore ullamco reprehenderit occaecat mollit voluptate ut enim cillum id qui culpa. Labore fugiat pariatur pariatur proident ut ullamco Lorem ullamco elit. Nisi commodo dolore nisi ullamco labore.
 
@@ -42,7 +42,7 @@ Eiusmod laborum et consequat enim voluptate fugiat cillum enim irure amet irure.
         'date': '12/06/2018',
         'title': 'Cryptocurrency Tracker',
         'category': 'Web App',
-        'description': 'lala',
+        'description': ['React.js'],
         'img': 'https://images.unsplash.com/photo-1493278125710-29e0d5195764?ixlib=rb-0.3.5&s=8f99f6ab26405534214cf39a6410000d&auto=format&fit=crop&w=2689&q=80',
         'content': `Laborum voluptate consequat exercitation non ipsum sit occaecat pariatur exercitation ea aute enim sit consequat. Sunt velit ea dolor sunt nulla enim consectetur eiusmod eu occaecat. Labore ullamco reprehenderit occaecat mollit voluptate ut enim cillum id qui culpa. Labore fugiat pariatur pariatur proident ut ullamco Lorem ullamco elit. Nisi commodo dolore nisi ullamco labore.
 
@@ -61,7 +61,7 @@ Eiusmod laborum et consequat enim voluptate fugiat cillum enim irure amet irure.
         'date': '12/06/2018',
         'title': 'Donj House',
         'category': 'Web App',
-        'description': 'lala',
+        'description': ['Meteor.js'],
         'img': 'https://images.unsplash.com/photo-1493278125710-29e0d5195764?ixlib=rb-0.3.5&s=8f99f6ab26405534214cf39a6410000d&auto=format&fit=crop&w=2689&q=80',
         'content': `Laborum voluptate consequat exercitation non ipsum sit occaecat pariatur exercitation ea aute enim sit consequat. Sunt velit ea dolor sunt nulla enim consectetur eiusmod eu occaecat. Labore ullamco reprehenderit occaecat mollit voluptate ut enim cillum id qui culpa. Labore fugiat pariatur pariatur proident ut ullamco Lorem ullamco elit. Nisi commodo dolore nisi ullamco labore.
 
