@@ -1,7 +1,7 @@
 export const featuredArticles = [
     {
         'id': 1,
-        // 'link': 'https://todoro.ga/',
+        'link': 'https://todoro.ga/',
         'date': '12/06/2018',
         'title': 'Todoro.ga',
         'category': 'Progressive Web App',

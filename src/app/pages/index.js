@@ -81,6 +81,7 @@ export default () => (
       }
       .wrapper {
         margin: 0 auto
+        margin-top: 80px
         height: 983px
         width: 864px
         border-radius: 10px
